@@ -20,8 +20,4 @@ ENV LC_ALL en_US.UTF-8
 
 WORKDIR /usr/local/tomcat/
 
-# EXPOSE 9000
-# EXPOSE 9001
-# EXPOSE 9002
-# EXPOSE 9005
 ENTRYPOINT ["./bin/catalina.sh","run"]
