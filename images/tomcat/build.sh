@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-version="v1.1"
+version="v1.2"
 
 docker build --no-cache -t qiujiahong/tomcat:${version} .
 docker tag qiujiahong/tomcat:${version} qiujiahong/tomcat:latest 

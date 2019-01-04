@@ -24,6 +24,11 @@ ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 
+ENV JAVA_HOME=/usr/java/jdk1.8.0_181-amd64
+ENV CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+ENV PATH=$JAVA_HOME/bin:$PATH
+
+
 EXPOSE 8080
 
 WORKDIR /usr/local/tomcat/
