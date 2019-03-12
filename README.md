@@ -2,3 +2,5 @@
 
 
 [tomcat](./images/tomcat/indroduce.md)
+
+[emqx-auth-mysql](./images/emqx-auth-mysql/indroduce.md)
