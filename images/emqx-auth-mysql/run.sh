@@ -12,7 +12,7 @@ docker run -d \
     -e MAX_CONNECTIONS=1000000 \
     -e USERNAME="fangle" \
     -e PASSWORD="fangle123" \
-    qiujiahong/emqx-docker:v3.0-user
+    qiujiahong/emqx-docker:v3.0-mysql-acl
   
 # 参数说明
 ###TCP 监听器的 Acceptor 池大小，最大允许连接数
